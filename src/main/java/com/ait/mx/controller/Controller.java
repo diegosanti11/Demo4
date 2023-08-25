@@ -19,6 +19,7 @@ public class Controller {
 	public ResponseEntity<MyResponseDTO> getsaludo(){
 		logger.info("estamos probando este nuevo pa ver que pex");
 		//System.out.println("Probando");
+		System.out.println("--");
 		return new ResponseEntity<>(new MyResponseDTO("SALUDO","OK"),HttpStatus.OK);
 	}
 
